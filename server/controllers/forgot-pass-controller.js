@@ -48,7 +48,7 @@ const forgotPassword = async (req, res) => {
     let mailOptions = {
       from: "utkarshchoudhary734@gmail.com",
       to: email,
-      subject: "Password Reset Request for your NotePlus Account",
+      subject: "Password Reset Request for your aiensured Account",
       text: `Dear ${user.firstname},
   
   We received a request to reset your password for your account on NotePlus.
@@ -77,7 +77,7 @@ const forgotPassword = async (req, res) => {
         
   Sincerely,
         
-  The NotePlus Team`,
+  The aiensured Team`,
     };
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {

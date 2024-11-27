@@ -57,7 +57,7 @@ const ForgotPassword = () => {
             alt="aiensured logo"
             className="w-12"
           />
-          <span className="font-medium text-2xl">NotePlus</span>
+          <span className="font-medium text-2xl">aiensured</span>
         </div>
         <div className="flex flex-col items-center gap-4 my-6">
           <h1 className="font-semibold text-2xl">Forgot Password</h1>
