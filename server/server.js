@@ -19,7 +19,7 @@ const port = process.env.PORT || 9000;
 It allows the application to access the request body as a JavaScript object. */
 app.use(express.json());
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: ["http://localhost:5173","https://aiensured-assignment-r89q.vercel.app"],
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
