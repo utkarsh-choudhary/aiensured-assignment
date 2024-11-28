@@ -4,7 +4,7 @@
   "description": "Aiensured Note App 📓 Aiensured Note App is a MERN stack-based application designed for efficient note-taking. It features a simple, user-friendly interface and backend functionality that includes email notifications after signing in.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js "
   },
   "author": "",
   "license": "ISC"
