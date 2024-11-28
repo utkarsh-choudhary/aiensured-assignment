@@ -24,7 +24,7 @@ const NoteCard = ({ title, content, createdAt, noteID, onViewNote }) => {
   const handleDeleteNote = async (id) => {
     try {
       let response = await fetch(
-        `http://localhost:9000/api/notes/${id}`,
+        `https://aiensured-assignment-5fa6.onrender.com/api/notes/${id}`,
         {
           method: "DELETE",
           headers: { Authorization: token },

@@ -19,7 +19,7 @@ const ForgotPassword = () => {
     // sending data to backend using fetch api
     try {
       let response = await fetch(
-        `http://localhost:9000/api/auth/forgot-password`,
+        `https://aiensured-assignment-5fa6.onrender.com/api/auth/forgot-password`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

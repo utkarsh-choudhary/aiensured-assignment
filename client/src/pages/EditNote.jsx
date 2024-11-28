@@ -26,7 +26,7 @@ const EditNote = () => {
     const getNoteData = async () => {
       try {
         let response = await fetch(
-          `http://localhost:9000/api/notes/${noteID}`,
+          `https://aiensured-assignment-5fa6.onrender.com/api/notes/${noteID}`,
           {
             method: "GET",
             headers: {

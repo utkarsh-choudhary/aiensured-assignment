@@ -21,7 +21,7 @@ const MyProfile = () => {
     const fetchUserData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:9000/api/auth/user`,
+          `https://aiensured-assignment-5fa6.onrender.com/api/auth/user`,
           {
             method: "GET",
             headers: {

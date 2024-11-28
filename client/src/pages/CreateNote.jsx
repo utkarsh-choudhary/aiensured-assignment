@@ -26,7 +26,7 @@ const CreateNote = () => {
     // sending data to backend using fetch api
     try {
       let response = await fetch(
-        `http://localhost:9000/api/notes`,
+        `https://aiensured-assignment-5fa6.onrender.com/api/notes`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json", Authorization: token },

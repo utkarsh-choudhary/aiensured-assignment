@@ -29,7 +29,7 @@ const NoteCardList = () => {
     const fetchNotes = async () => {
       try {
         let response = await fetch(
-          `http://localhost:9000/api/notes?status=publish`,
+          `https://aiensured-assignment-5fa6.onrender.com/api/notes?status=publish`,
           {
             method: "GET",
             headers: {

@@ -25,7 +25,7 @@ const OTPPage = () => {
     // sending data to backend using fetch api
     try {
       let response = await fetch(
-        `http://localhost:9000/api/auth/otp-verify`,
+        `https://aiensured-assignment-5fa6.onrender.com/api/auth/otp-verify`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

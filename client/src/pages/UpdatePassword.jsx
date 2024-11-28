@@ -24,7 +24,7 @@ const UpdatePassword = () => {
     // sending data to backend using fetch api
     try {
       let response = await fetch(
-        `http://localhost:9000/api/auth/reset-password`,
+        `https://aiensured-assignment-5fa6.onrender.com/api/auth/reset-password`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
