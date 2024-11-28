@@ -24,6 +24,8 @@ const corsOptions = {
   credentials: true,
 };
 app.use(cors(corsOptions));
+app.use(cors({ origin: '*' }));
+
 
 app.use("/api/auth", router);
 app.use("/api", noterouter);
