@@ -13,6 +13,7 @@ const connectDB = require("./utils/db");
 const router = require("./router/auth-router");
 const noterouter = require("./router/note-router");
 const contactrouter = require("./router/contact-router");
+const port = process.env.PORT || 9000;
 
 /* `app.use(express.json())` is a middleware function that parses incoming requests with JSON payloads.
 It allows the application to access the request body as a JavaScript object. */
@@ -28,7 +29,7 @@ app.use("/api/auth", router);
 app.use("/api", noterouter);
 app.use("/api", contactrouter);
 
-const port = process.env.PORT || 9000;
+
 connectDB().then(() => {
   app.listen(port, () => {
     console.log(`Server is running at port ${port}`);
