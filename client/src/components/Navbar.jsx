@@ -15,8 +15,8 @@ const Navbar = ({ toggleSidebar }) => {
           </button>
         </div>
         <img
-          src="./upgrad.png"
-          alt="upgrad"
+          src="./ai.png"
+          alt="aiensured"
           className="w-12"
         />
       </div>
