@@ -28,7 +28,7 @@ app.use("/api/auth", router);
 app.use("/api", noterouter);
 app.use("/api", contactrouter);
 
-const port = 9000;
+const port = process.env.PORT || 9000;
 connectDB().then(() => {
   app.listen(port, () => {
     console.log(`Server is running at port ${port}`);
